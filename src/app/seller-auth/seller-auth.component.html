@@ -1,0 +1,59 @@
+<div class="seller-auth">
+    <div *ngIf="!showLogin" class="sign-up">
+      <h1>Seller sign-up</h1>
+      <form [formGroup]="sellersignup" #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)" class="common-form" >
+        <input
+          type="text"
+          class="form-input form-control"
+          placeholder="Enter Name"
+          name="name"
+          ngForm
+          formControlName="name"
+        />
+        <small style="color : red;" *ngIf="name.invalid && name.touched">Invalid Name</small>
+        <input
+          type="password"
+          class="form-input form-control"
+          placeholder="Enter Password"
+          name="password"
+          ngForm
+          formControlName="password"
+        />
+        <small style="color : red;" *ngIf="email.invalid && email.touched">Minimum 8 character Requried</small>
+        <input
+          type="text"
+          class="form-input form-control"
+          placeholder="Enter Email"
+          name="email"
+          ngForm
+          formControlName="email"
+        />
+
+        <small  style="color : red;" *ngIf="password.invalid && password.touched">Invalid Email</small>
+        <button class="form-button" [disabled]="sellersignup.invalid">Sign Up</button>
+        <a class="auth-toggle-link" (click)="openLogin()">Already have account? Click for Login</a>
+      </form>
+    </div>
+    <div *ngIf="showLogin" class="login">
+      <h1>Seller Login</h1>
+      <p class="error-p">{{authError}}</p>
+      <form #sellerLogin="ngForm" (ngSubmit)="login(sellerLogin.value)" class="common-form" >
+        <input
+        type="text"
+        class="form-input"
+        placeholder="Enter Email"
+        name="email"
+        ngModel
+      />
+        <input
+          type="password"
+          class="form-input"
+          placeholder="Enter Password"
+          name="password"
+          ngModel
+        />
+        <button class="form-button">Login</button>
+        <a class="auth-toggle-link" (click)="openSignUp()">Don't have account? Click for sign-up</a> 
+  
+      </form>
+    </div>

@@ -13,5 +13,69 @@
       "id": 2
     }
   ],
-  "products": []
+  "products": [
+    {
+      "name": "Iphone 13 ",
+      "price": "79000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "6.1' inch display",
+      "image": "https://img.ebyrcdn.net/937397-911916-800.jpg",
+      "id": 1
+    },
+    {
+      "name": "Hp dx5000",
+      "price": "54000",
+      "color": "Black",
+      "category": "Laptop",
+      "description": "Window 7, 512GB ssd, 8GD RAM",
+      "image": "https://ci.jumia.is/cms/external/pet/HP017EL1M4COCNAFAMZ/6ab30e1719dd3e52e4a80932923f0b65.jpg",
+      "id": 2
+    },
+    {
+      "name": "samsung Note 10",
+      "price": "57000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "curved screen, 48mpx camera",
+      "image": "https://images.samsung.com/is/image/samsung/p5/fr/home/FR_New_Note8_KV.png?$ORIGIN_PNG$",
+      "id": 3
+    },
+    {
+      "name": "TV S-curve",
+      "price": "125000",
+      "color": "Black",
+      "category": "Television",
+      "description": "Curved screen, 55 inches",
+      "image": "https://images.samsung.com/is/image/samsung/uk-full-hd-k6300-ue49k6300akxxu-013-black-black",
+      "id": 5
+    },
+    {
+      "name": "Sony q34",
+      "price": "76000",
+      "color": "Black",
+      "category": "Television",
+      "description": "43' TV, smart TV, inbuild alexa",
+      "image": "https://th.bing.com/th/id/OIP.mo1UKRuo2E-zM-0nhzJgTwHaE8?pid=ImgDet&rs=1",
+      "id": 6
+    },
+    {
+      "name": "Hp t7",
+      "price": "32000",
+      "color": "Black",
+      "category": "Laptop",
+      "description": "Window 7, 4GB RAM, 512GB hhD",
+      "image": "https://pngimg.com/uploads/laptop/laptop_PNG5908.png",
+      "id": 7
+    },
+    {
+      "name": "Antsport CPU",
+      "price": "99998",
+      "color": "Green",
+      "category": "CPU",
+      "description": "3050 Rtx, 16GB RAM, 1TB ssd",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/912%2BOS8yzdL._AC_SL1500_.jpg",
+      "id": 8
+    }
+  ]
 }

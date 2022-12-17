@@ -1,3 +1,5 @@
+import { ProductService } from './../services/product.service';
+import { product } from './../../data-type';
 import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router'
 @Component({
@@ -8,7 +10,8 @@ import {Router} from '@angular/router'
 export class HeaderComponent implements OnInit {
   menuType :String= 'default';
   sellerName : string = '';
-  constructor(private route :Router) { }
+  searchResult : undefined|product[]
+  constructor(private route :Router, private product:ProductService) { }
 
   ngOnInit(): void {
 
@@ -34,5 +37,23 @@ export class HeaderComponent implements OnInit {
     localStorage.removeItem('seller')
     this.route.navigate(['/'])
   }
-
+  searchProducts(query:KeyboardEvent){
+if(query){
+  const element = query.target as HTMLInputElement
+  this.product.searchProducts(element.value).subscribe((result)=>{
+    if(result.length>5){
+    result.length=4}
+this.searchResult=result
+  })
+}
+  }
+  hidesearch(){
+    this.searchResult=undefined
+  }
+submitSearch(val:string){
+  this.route.navigate([`search/${val}`])
+}
+redirectToDetails(id:number){
+this.route.navigate(["/details/"+id])
+}
 }

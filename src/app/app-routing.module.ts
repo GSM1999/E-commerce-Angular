@@ -1,3 +1,5 @@
+import { UserAuthComponent } from './user-auth/user-auth.component';
+import { ComponentFixture } from '@angular/core/testing';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { SearchComponent } from './search/search.component';
 import { SellerUpdateProductComponent } from './seller-update-product/seller-update-product.component';
@@ -40,6 +42,10 @@ const routes: Routes = [
    },{
     component:ProductDetailsComponent,
     path:'details/:productId'
+   },
+   {
+    component:UserAuthComponent,
+    path:'user-auth'
    }
 ];
 

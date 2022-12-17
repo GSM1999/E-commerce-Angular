@@ -77,5 +77,129 @@
       "image": "https://images-na.ssl-images-amazon.com/images/I/912%2BOS8yzdL._AC_SL1500_.jpg",
       "id": 8
     }
+  ],
+  "users": [
+    {
+      "name": "gaurav singh",
+      "email": "gaurav@gmail.com",
+      "password": "11111111",
+      "id": 1
+    },
+    {
+      "name": "tanmay",
+      "email": "tony@gmail.com",
+      "password": "12121212",
+      "id": 2
+    }
+  ],
+  "cart": [
+    {
+      "name": "Iphone 13 ",
+      "price": "79000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "6.1' inch display",
+      "image": "https://img.ebyrcdn.net/937397-911916-800.jpg",
+      "quantity": 1,
+      "userId": 2,
+      "productId": 1,
+      "id": 1
+    },
+    {
+      "name": "Hp dx5000",
+      "price": "54000",
+      "color": "Black",
+      "category": "Laptop",
+      "description": "Window 7, 512GB ssd, 8GD RAM",
+      "image": "https://ci.jumia.is/cms/external/pet/HP017EL1M4COCNAFAMZ/6ab30e1719dd3e52e4a80932923f0b65.jpg",
+      "quantity": 1,
+      "userId": 2,
+      "productId": 2,
+      "id": 2
+    },
+    {
+      "name": "Iphone 13 ",
+      "price": "79000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "6.1' inch display",
+      "image": "https://img.ebyrcdn.net/937397-911916-800.jpg",
+      "quantity": 2,
+      "productId": 1,
+      "userId": null,
+      "id": 3
+    },
+    {
+      "name": "Iphone 13 ",
+      "price": "79000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "6.1' inch display",
+      "image": "https://img.ebyrcdn.net/937397-911916-800.jpg",
+      "quantity": 1,
+      "productId": 1,
+      "userId": null,
+      "id": 4
+    },
+    {
+      "name": "samsung Note 10",
+      "price": "57000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "curved screen, 48mpx camera",
+      "image": "https://images.samsung.com/is/image/samsung/p5/fr/home/FR_New_Note8_KV.png?$ORIGIN_PNG$",
+      "quantity": 1,
+      "productId": 3,
+      "userId": null,
+      "id": 5
+    },
+    {
+      "name": "Iphone 13 ",
+      "price": "79000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "6.1' inch display",
+      "image": "https://img.ebyrcdn.net/937397-911916-800.jpg",
+      "quantity": 1,
+      "productId": 1,
+      "userId": null,
+      "id": 6
+    },
+    {
+      "name": "Iphone 13 ",
+      "price": "79000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "6.1' inch display",
+      "image": "https://img.ebyrcdn.net/937397-911916-800.jpg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 1,
+      "id": 7
+    },
+    {
+      "name": "Hp dx5000",
+      "price": "54000",
+      "color": "Black",
+      "category": "Laptop",
+      "description": "Window 7, 512GB ssd, 8GD RAM",
+      "image": "https://ci.jumia.is/cms/external/pet/HP017EL1M4COCNAFAMZ/6ab30e1719dd3e52e4a80932923f0b65.jpg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 2,
+      "id": 8
+    },
+    {
+      "name": "samsung Note 10",
+      "price": "57000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "curved screen, 48mpx camera",
+      "image": "https://images.samsung.com/is/image/samsung/p5/fr/home/FR_New_Note8_KV.png?$ORIGIN_PNG$",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 3,
+      "id": 9
+    }
   ]
 }

@@ -35,3 +35,6 @@ color: blueviolet;
 .error-p{
     color: red;
 }
+button:disabled{
+    cursor: not-allowed;
+}
